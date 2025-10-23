@@ -1,44 +1,56 @@
 # 💻 Programação em C – UFLA
 
-Repositório destinado aos trabalhos e desafios desenvolvidos durante a disciplina **Programação de Computadores e Resolução de Problemas**, da **Universidade Federal de Lavras – Campus Paraíso**.  
-Todos os programas foram implementados na linguagem **C**, com foco na prática de lógica de programação, controle de fluxo, funções e cálculos matemáticos.
+Repositório com os **trabalhos práticos e desafios** desenvolvidos na disciplina  
+**Programação de Computadores e Resolução de Problemas**, ministrada pela  
+**Prof.ª Dra. Sandra Souza Rodrigues** na **Universidade Federal de Lavras – Campus Paraíso**.
+
+Os projetos foram implementados em **linguagem C**, abordando desde lógica básica até manipulação de estruturas, vetores e matrizes.
 
 ---
 
 ## 📂 Estrutura do Repositório
 
-| Projeto | Descrição |
-|----------|------------|
-| `trabalho_pratico_1` | Conjunto de 6 programas em C resolvendo problemas propostos pela professora Sandra Souza Rodrigues. |
+| Pasta | Conteúdo |
+|--------|-----------|
+| [`trabalho_pratico_1`](./trabalho_pratico_1) | Seis programas em C resolvendo problemas envolvendo cálculos matemáticos, laços e controle de fluxo. |
+| [`trabalho_pratico_2`](./trabalho_pratico_2) | Cinco desafios práticos com vetores, matrizes e estruturas (`struct`), simulando sistemas reais. |
 
 ---
 
-## 🧠 Desafios do Trabalho Prático 1
-
-### 1️⃣ Cálculo de Área de Alvos de Papelão  
-Programa que calcula a quantidade de papelão necessária para confeccionar 5.000 alvos circulares sobrepostos, com base no diâmetro informado pelo usuário.
-
-### 2️⃣ Números Narcisistas  
-Verifica se um número é **narcisista**, ou seja, se ele é igual à soma de seus dígitos elevados ao número total de dígitos.
-
-### 3️⃣ Números Amigáveis  
-Determina se dois números inteiros são **amigáveis**, comparando a soma dos divisores de cada um.
-
-### 4️⃣ Cálculo de Degraus de Escada  
-Dado o ângulo e a altura desejada do prego, calcula quantos degraus uma escada deve ter, considerando as normas do Inmetro (30 cm por degrau).
-
-### 5️⃣ Imposto de Renda  
-Calcula o valor do imposto de renda de um funcionário com base em faixas de rendimento, número de dependentes e taxas adicionais do governo.
-
-### 6️⃣ Jogo do Palpite  
-Simula um jogo onde o computador escolhe um número entre 1 e 100, e o jogador tenta adivinhar, recebendo dicas a cada tentativa.
+## 🧠 Principais Conceitos Trabalhados
+- Estruturas de decisão (`if`, `switch`)  
+- Laços de repetição (`for`, `while`, `do-while`)  
+- Funções e modularização  
+- Vetores e matrizes  
+- Estruturas (`struct`)  
+- Manipulação de strings  
+- Entrada e saída de dados em C  
 
 ---
 
-## 🧾 Execução dos Programas
+## ⚙️ Como Executar os Programas
 
-Para compilar e executar cada programa, utilize um compilador C (como `gcc`) no terminal:
+1️⃣ Faça o clone do repositório:
+```bash
+git clone https://github.com/SEU_USUARIO/programacao-em-c.git
+cd programacao-em-c
+```
 
+2️⃣ Acesse o trabalho desejado:
+```bash
+cd trabalho_pratico_1
+# ou
+cd trabalho_pratico_2
+```
+
+3️⃣ Compile e execute qualquer programa:
 ```bash
 gcc nome_do_arquivo.c -o nome_do_programa
 ./nome_do_programa
+```
+
+Exemplo:
+```
+gcc desafio1.c -o desafio1
+./desafio1
+```
